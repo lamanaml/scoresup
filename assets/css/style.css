@@ -19,7 +19,7 @@
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: #44d7b6;
+  --primary: rgb(0,174,239);
   --secondary: #6c757d;
   --success: #28a745;
   --info: #17a2b8;
@@ -1797,8 +1797,8 @@ fieldset:disabled a.go-top-btn {
 
 .btn-primary {
   color: #212529;
-  background-color: #44d7b6;
-  border-color: #44d7b6; }
+  background-color: rgb(0,174,239);
+  border-color: rgb(0,174,239); }
   .btn-primary:hover {
     color: #212529;
     background-color: #2bcaa6;
@@ -1810,8 +1810,8 @@ fieldset:disabled a.go-top-btn {
     box-shadow: 0 0 0 0.2rem rgba(63, 188, 161, 0.5); }
   .btn-primary.disabled, .btn-primary:disabled {
     color: #212529;
-    background-color: #44d7b6;
-    border-color: #44d7b6; }
+    background-color: rgb(0,174,239);
+    border-color: rgb(0,174,239); }
   .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
   .show > .btn-primary.dropdown-toggle {
     color: #fff;
@@ -2004,22 +2004,22 @@ fieldset:disabled a.go-top-btn {
       box-shadow: 0 0 0 0.2rem rgba(82, 88, 93, 0.5); }
 
 .btn-outline-primary {
-  color: #44d7b6;
-  border-color: #44d7b6; }
+  color: rgb(0,174,239);
+  border-color: rgb(0,174,239); }
   .btn-outline-primary:hover {
     color: #212529;
-    background-color: #44d7b6;
-    border-color: #44d7b6; }
+    background-color: rgb(0,174,239);
+    border-color: rgb(0,174,239); }
   .btn-outline-primary:focus, .btn-outline-primary.focus {
     box-shadow: 0 0 0 0.2rem rgba(68, 215, 182, 0.5); }
   .btn-outline-primary.disabled, .btn-outline-primary:disabled {
-    color: #44d7b6;
+    color: rgb(0,174,239);
     background-color: transparent; }
   .btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active,
   .show > .btn-outline-primary.dropdown-toggle {
     color: #212529;
-    background-color: #44d7b6;
-    border-color: #44d7b6; }
+    background-color: rgb(0,174,239);
+    border-color: rgb(0,174,239); }
     .btn-outline-primary:not(:disabled):not(.disabled):active:focus, .btn-outline-primary:not(:disabled):not(.disabled).active:focus,
     .show > .btn-outline-primary.dropdown-toggle:focus {
       box-shadow: 0 0 0 0.2rem rgba(68, 215, 182, 0.5); }
@@ -3628,7 +3628,7 @@ input[type="button"].btn-block {
 
 .badge-primary {
   color: #212529;
-  background-color: #44d7b6; }
+  background-color: rgb(0,174,239); }
   a.badge-primary:hover, a.badge-primary:focus {
     color: #212529;
     background-color: #29bf9d; }
@@ -4836,7 +4836,7 @@ button.bg-dark:focus {
   border-left: 0 !important; }
 
 .border-primary {
-  border-color: #44d7b6 !important; }
+  border-color: rgb(0,174,239) !important; }
 
 .border-secondary {
   border-color: #6c757d !important; }
@@ -7077,7 +7077,7 @@ button.bg-dark:focus {
   color: #ffffff !important; }
 
 .text-primary {
-  color: #44d7b6 !important; }
+  color: rgb(0,174,239) !important; }
 
 a.text-primary:hover, a.text-primary:focus {
   color: #24aa8c !important; }
@@ -7259,7 +7259,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .service-list .list-group-item {
   padding: 8px 0;
-  border-color: #44d7b6;
+  border-color: rgb(0,174,239);
   font-size: 14px;
   font-weight: 500; }
 
@@ -7283,7 +7283,7 @@ a.text-dark:hover, a.text-dark:focus {
 .go-top-btn {
   width: 60px;
   height: 60px;
-  background-color: #44d7b6;
+  background-color: rgb(0,174,239);
   color: #ffffff;
   padding: 0;
   display: inline-flex;
@@ -7291,7 +7291,7 @@ a.text-dark:hover, a.text-dark:focus {
   align-items: center;
   border-radius: 0; }
   .go-top-btn:hover, .go-top-btn:focus {
-    border: 1px solid #44d7b6;
+    border: 1px solid rgb(0,174,239);
     background-color: transparent; }
 
 html {
@@ -7307,7 +7307,7 @@ html {
       background-size: 100% 81px;
       background-position: top; } }
   .hiro-header.home-header .hiro-nav-popup-toggle #hiro-agency {
-    fill: #ffffff; }
+    fill: rgb(0,174,239); }
 
 .hiro-nav {
   display: flex;
@@ -7464,7 +7464,7 @@ html {
         width: 0;
         height: 5px;
         opacity: 0;
-        background-color: #44d7b6;
+        background-color: rgb(0,174,239);
         transition: 0.3s ease-in-out all; }
       .hiro-nav-popup-modal .hiro-main-nav .nav-link:hover::after {
         opacity: 1;
@@ -7660,7 +7660,7 @@ html {
     width: 100%;
     margin-bottom: 29px; }
   .project-card .project-title {
-    color: #44d7b6;
+    color: rgb(0,174,239);
     margin-bottom: 0; }
   .project-card .project-category {
     font-size: 12px;
@@ -7719,7 +7719,7 @@ html {
       color: #ffffff;
       margin-bottom: 0; }
   .hiro-team-carousel .team-card.featured .team-member-details {
-    background-color: #44d7b6; }
+    background-color: rgb(0,174,239); }
 
 .career-section .section-title {
   position: relative;
@@ -7763,7 +7763,7 @@ html {
   font-size: 25px;
   font-weight: 700;
   line-height: 1;
-  color: #44d7b6;
+  color: rgb(0,174,239);
   margin-bottom: 30px; }
 
 .contact-page-street-address {
@@ -7965,7 +7965,7 @@ html {
     width: 0;
     height: 2px;
     opacity: 0;
-    background-color: #44d7b6;
+    background-color: rgb(0,174,239);
     transition: 0.3s ease-in-out all; }
   .link-hover-fx:hover::after {
     opacity: 1;
