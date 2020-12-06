@@ -7298,7 +7298,7 @@ html {
   scroll-behavior: smooth; }
 
 .hiro-header.home-header {
-  background-image: linear-gradient(to right, #fff 0%, #fff 70%, #000 70%, #000 100%);
+  background-image: linear-gradient(to right, #fff 0%, #fff 70%, rgb(0,174,239) 70%, rgb(0,174,239) 100%);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center; }
@@ -7307,7 +7307,7 @@ html {
       background-size: 100% 81px;
       background-position: top; } }
   .hiro-header.home-header .hiro-nav-popup-toggle #hiro-agency {
-    fill: rgb(0,174,239); }
+    fill: rgb(175,55,149); }
 
 .hiro-nav {
   display: flex;
@@ -7667,7 +7667,7 @@ html {
     margin-bottom: 0; }
 
 .team-section {
-  background-color: #050605; }
+  background-color: rgb(0,174,239); }
   .team-section .section-title {
     color: #fff;
     margin-top: 40px;
@@ -7703,7 +7703,7 @@ html {
     width: 100%; }
   .hiro-team-carousel .team-card .team-member-details {
     position: absolute;
-    background-color: #050605;
+    background-color: rgb(175,55,149);
     padding: 20px 22px;
     bottom: 0;
     right: -5px; }
