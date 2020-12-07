@@ -73,17 +73,18 @@ if( empty($errors))
 
 
 <body>
-   <div class="container" style="align:center; padding-top: 50px;">
+   <div class="container" style="text-align:center; padding-top: 100px;">
     
 <!-- This page is displayed only if there is some error -->
 <?php
 echo nl2br($errors);
 ?>
-<br><br>
 
-<a href="index.html">Back to the homepage </a>
 <br>
   <img src="assets/images/1/logoTrans2.png">
+  <br><br>
+
+<a href="index.html">Back to the homepage </a>
 </div>
 </body>
 </html>
