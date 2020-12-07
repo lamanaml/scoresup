@@ -52,7 +52,7 @@ if( empty($errors))
         </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Scores Up Financial Services</title>
+    <title>Thank You - Scores Up Financial Services</title>
         <link rel="canonical" href="https://www.scoresupfinancialservices.com"/>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="Scores Up Financial can help you understand your credit and help improve your credit scores and financial health.."  />
@@ -60,7 +60,15 @@ if( empty($errors))
         <meta property="og:site_name" content="Scores Up Financial Services"/>
         <meta property="og:title" content="Scores Up Financial Services"/>
         <meta property="og:url" content="https://www.scoresupfinancialservices.com"/>
+        
         <meta property="og:type" content="website"/>
+        
+    <link rel="stylesheet" href="assets/vendors/animate.css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/vendors/jquery/jquery.min.js"></script>
+    <script src="assets/js/loader.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon"  type="image/png"  href="assets/images/1/fav.ico">
 </head>
 
 <body>
