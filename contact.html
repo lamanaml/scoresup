@@ -133,8 +133,8 @@
                     
                 </div>
                 <div class="col-md-6 col-lg-4 contact-page-form-wrapper wow fadeInRight">
-                    <form  action="mailto:lamanaml@gmail.com" method="get" enctype="text/plain">
-                        <div class="form-group">
+                    <form method="POST" name="contactform" action="contact-form-handler.php"> 
+                <div class="form-group">
                             <label for="name" class="sr-only">Name</label>
                             <input type="text" class="form-control" id="name" name="name" placeholder="Name">
                         </div>
@@ -154,25 +154,11 @@
                             <input class="btn" type="submit" name="submit" value="Send" />
                             
                         </div>
-                    </form>
+                    </form>    
                 </div>
             </div>
         </div>
-<form method="POST" name="contactform" action="contact-form-handler.php"> 
-<p>
-<label for='name'>Your Name:</label> <br>
-<input type="text" name="name">
-</p>
-<p>
-<label for='email'>Email Address:</label> <br>
-<input type="text" name="email"> <br>
-</p>
-<p>
-<label for='message'>Message:</label> <br>
-<textarea name="message"></textarea>
-</p>
-<input type="submit" value="Submit"><br>
-</form>    </main>
+
 
 
 
