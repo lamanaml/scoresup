@@ -71,13 +71,15 @@ if( empty($errors))
     <link rel="icon"  type="image/png"  href="assets/images/1/fav.ico">
 </head>
 
+
 <body>
-   <div class="container">
+   <div class="container" style="align:center; padding-top: 50px;">
     
 <!-- This page is displayed only if there is some error -->
 <?php
 echo nl2br($errors);
 ?>
+<br><br>
 
 <a href="index.html">Back to the homepage </a>
 <br>
