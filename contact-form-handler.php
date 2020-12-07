@@ -73,6 +73,7 @@ if( empty($errors))
 
 <body>
    <div class="container">
+      <img src="assets/images/1/logoTrans2.png">
 <!-- This page is displayed only if there is some error -->
 <?php
 echo nl2br($errors);
