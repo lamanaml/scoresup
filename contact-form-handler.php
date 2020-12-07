@@ -73,14 +73,15 @@ if( empty($errors))
 
 <body>
    <div class="container">
-      <img src="assets/images/1/logoTrans2.png">
+    
 <!-- This page is displayed only if there is some error -->
 <?php
 echo nl2br($errors);
 ?>
 
 <a href="index.html">Back to the homepage </a>
-
+<br>
+  <img src="assets/images/1/logoTrans2.png">
 </div>
 </body>
 </html>
