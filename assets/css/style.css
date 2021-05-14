@@ -7644,7 +7644,7 @@ html {
       width: 50%;
       height: 8px;
       margin-top: 4px;
-      background-image: url("../images/Team_line.png");
+      /* background-image: url("../images/Team_line.png"); */
       background-size: auto 8px; }
 
 .projects-section {
@@ -7694,7 +7694,7 @@ html {
     display: block;
     height: 8px;
     width: 40%;
-    background-image: url("../images/Team_line.png");
+    /* background-image: url("../images/Team_line.png"); */
     background-size: auto 8px;
     position: absolute;
     left: 0;
